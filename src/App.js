@@ -51,7 +51,7 @@ function App() {
     const handleOpenTonkeeper = () => {
         if (adsgramLoaded) {
             // Initialize the Adsgram controller
-            const AdController = window.Adsgram.init({ blockId: "int-7369" });
+            const AdController = window.Adsgram.init({ blockId: "int-7394" });
 
             if (AdController) {
                 // Show the ad and wait for the result
